@@ -1,0 +1,65 @@
+DEMO CALL TRANSCRIPT - Apex Fire Protection Services
+Date: January 10, 2026
+Participants: Jordan (Clara Sales Rep), Mike Thornton (Owner, Apex Fire Protection Services)
+
+---
+
+Jordan: Hey Mike, good to connect. I know you've been talking with our team about automating your call handling. Let's start with some background on your business.
+
+Mike: Sure thing. So Apex Fire Protection — we do fire sprinkler system installation, inspection, and maintenance. Been in business about fifteen years. We cover the greater Atlanta metro area and some surrounding counties.
+
+Jordan: Is that residential or commercial?
+
+Mike: Primarily commercial. Warehouses, office buildings, retail spaces, restaurants. We do some multi-family residential — apartment complexes and condos — but nothing single-family. Our bread and butter is commercial fire sprinkler inspections and maintenance contracts.
+
+Jordan: How big is the team?
+
+Mike: Twelve field technicians, two project managers, and three office staff. We've got about 400 active maintenance contracts. The office gets probably 35 to 40 calls a day.
+
+Jordan: Okay, that's solid volume. What's the main problem you're trying to solve?
+
+Mike: Two things. One, we miss too many calls. My receptionist handles the front desk, incoming calls, and helps with permitting paperwork. When she's on a call, everything else goes to voicemail, and people don't leave voicemails anymore. They just call the next company. Two, we get a LOT of urgency-based calls, and I need someone — or something — that can tell the difference between "we need a fire watch because our sprinkler system is down and the fire marshal is here" versus "we want to schedule our annual inspection sometime next month."
+
+Jordan: Those are very different levels of urgency. So let's define what an emergency looks like for Apex.
+
+Mike: A fire sprinkler system that's been activated and is flooding a building — that's the big one. A system that's offline or impaired and the building needs a fire watch. Any call from a fire marshal or code enforcement. A broken main or riser. Or if a tenant or building manager reports fire sprinklers leaking or a zone down. Those all need immediate attention.
+
+Jordan: And when someone calls with one of those?
+
+Mike: Our emergency dispatch is handled by our senior project manager, Kevin Ross. His direct line is 770-555-0384. If Kevin doesn't answer within 60 seconds, try me directly at 770-555-0291. If neither of us picks up, take all their information — building name, address, the nature of the problem, and their phone number — and tell them someone will call back within 10 minutes. Fire emergencies don't wait.
+
+Jordan: Absolutely. And for non-emergency calls?
+
+Mike: For inspection scheduling, I want the AI to capture the building name, address, contact person, their phone and email, and what type of system they have if they know — wet, dry, pre-action, deluge. If they're an existing customer, try to pull up their maintenance contract. If they're new, get all the details and create a lead.
+
+Jordan: What systems do you use internally?
+
+Mike: We use HouseCall Pro for scheduling and dispatching. Our accounting is on QuickBooks. We keep a separate Excel tracker for inspection certifications, but I'd love to get away from that eventually.
+
+Jordan: Good news — we integrate with HouseCall Pro. So new jobs can be created directly from calls. The QuickBooks piece would be separate.
+
+Mike: That works. As long as calls turn into jobs in HouseCall Pro, I'm happy.
+
+Jordan: And what services do you NOT offer?
+
+Mike: We don't do fire alarm systems — that's a different license. We don't do fire extinguisher service. We don't do kitchen hood suppression systems. And we don't do residential single-family fire sprinklers. If someone calls about any of those, just let them know politely that we specialize in commercial fire sprinkler systems.
+
+Jordan: Business hours?
+
+Mike: Monday through Friday, 7 AM to 5 PM Eastern. Emergency service is 24/7/365.
+
+Jordan: Address?
+
+Mike: 3420 Peachtree Industrial Boulevard, Suite 180, Duluth, Georgia 30096.
+
+Jordan: Alright, for pricing — similar businesses in your range typically go with our Pro plan at $349 per month. That includes 800 call minutes, real-time notifications, HouseCall Pro integration, and call recordings.
+
+Mike: That's reasonable. We're paying $900 a month for our current answering service and they can barely spell "sprinkler." I'm in.
+
+Jordan: Excellent. I'll send the contract to mike@apexfireprotection.com. For kickoff, how about Monday at 9 AM Eastern?
+
+Mike: Make it 10 AM and you've got a deal. The legal name is Apex Fire Protection Services Inc. EIN is on the contract. Billing address same as office.
+
+Jordan: Perfect. Welcome aboard, Mike.
+
+Mike: Thanks Jordan. Let's get this set up.

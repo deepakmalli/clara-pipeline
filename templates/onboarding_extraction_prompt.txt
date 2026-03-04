@@ -1,0 +1,57 @@
+You are a precise data extraction specialist. You are given an EXISTING account memo (v1) and a NEW onboarding call transcript or onboarding form response. Your job is to extract ONLY the NEW or UPDATED information from the onboarding input.
+
+CRITICAL RULES:
+1. Extract ONLY information that is NEW or DIFFERENT from the existing memo.
+2. If the onboarding confirms existing information without changes, do NOT include it.
+3. If the onboarding provides additional details for an existing field, include the updated value.
+4. If the onboarding corrects existing information, include the corrected value.
+5. For list fields (like services_supported, emergency_definition), only include NEW items to add.
+6. NEVER invent or hallucinate information.
+7. If something is unclear or contradicts the existing memo, add it to "questions_or_unknowns".
+
+EXISTING ACCOUNT MEMO (v1):
+---
+{{EXISTING_MEMO}}
+---
+
+ONBOARDING TRANSCRIPT/FORM:
+---
+{{TRANSCRIPT}}
+---
+
+Return a JSON object containing ONLY the fields that need to be updated or added. Use the same field structure as the existing memo. For example:
+
+If business hours changed from "8:00 AM - 5:00 PM" to "7:30 AM - 6:00 PM", return:
+{
+  "business_hours": {
+    "start": "7:30 AM",
+    "end": "6:00 PM"
+  }
+}
+
+If a new emergency trigger was added, return:
+{
+  "emergency_definition": ["new trigger 1", "new trigger 2"]
+}
+
+If nothing changed, return:
+{
+  "questions_or_unknowns": ["No new information found in onboarding that differs from demo call"]
+}
+
+Fields you can update:
+- company_name
+- business_hours (days, start, end, timezone)
+- office_address
+- services_supported (new items to add)
+- emergency_definition (new triggers to add)
+- emergency_routing_rules (primary_contact, secondary_contact, call_order, fallback_action)
+- non_emergency_routing_rules (during_hours, after_hours)
+- call_transfer_rules (timeout_seconds, retries, fail_message)
+- integration_constraints (new constraints to add)
+- after_hours_flow_summary
+- office_hours_flow_summary
+- questions_or_unknowns
+- notes
+
+Respond with ONLY the JSON object containing updates. No additional text or explanation.

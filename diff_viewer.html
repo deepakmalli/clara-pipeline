@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Pipeline - Diff Viewer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+            padding: 20px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        h2 {
+            color: #8b949e;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        .controls {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .controls label {
+            display: block;
+            margin-bottom: 8px;
+            color: #8b949e;
+            font-size: 14px;
+        }
+        .controls input[type="file"],
+        .controls select {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+        .controls button {
+            background: #238636;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .controls button:hover { background: #2ea043; }
+        .file-inputs { display: flex; gap: 20px; flex-wrap: wrap; }
+        .file-inputs > div { flex: 1; min-width: 300px; }
+        .summary {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .summary h3 {
+            color: #58a6ff;
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+        .stats {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .stat-box {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 15px 20px;
+            text-align: center;
+            min-width: 120px;
+        }
+        .stat-box .number {
+            font-size: 28px;
+            font-weight: 700;
+            display: block;
+        }
+        .stat-box .label {
+            font-size: 12px;
+            color: #8b949e;
+            text-transform: uppercase;
+        }
+        .stat-box.modified .number { color: #d29922; }
+        .stat-box.added .number { color: #3fb950; }
+        .stat-box.removed .number { color: #f85149; }
+        .stat-box.total .number { color: #58a6ff; }
+        .diff-container {
+            display: flex;
+            gap: 0;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .diff-panel {
+            flex: 1;
+            overflow: auto;
+        }
+        .diff-panel-header {
+            background: #161b22;
+            padding: 12px 16px;
+            font-weight: 600;
+            font-size: 14px;
+            border-bottom: 1px solid #30363d;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .diff-panel:first-child {
+            border-right: 1px solid #30363d;
+        }
+        .diff-panel:first-child .diff-panel-header {
+            color: #f85149;
+        }
+        .diff-panel:last-child .diff-panel-header {
+            color: #3fb950;
+        }
+        .diff-content {
+            padding: 0;
+            font-family: 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+        .diff-line {
+            padding: 2px 16px;
+            border-bottom: 1px solid #21262d;
+        }
+        .diff-line.changed {
+            background: rgba(210, 153, 34, 0.15);
+        }
+        .diff-line.added {
+            background: rgba(63, 185, 80, 0.15);
+        }
+        .diff-line.removed {
+            background: rgba(248, 81, 73, 0.15);
+        }
+        .diff-line .key { color: #79c0ff; }
+        .diff-line .string { color: #a5d6ff; }
+        .diff-line .number { color: #79c0ff; }
+        .diff-line .null { color: #8b949e; }
+        .diff-line .boolean { color: #ff7b72; }
+        .change-list {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .change-list h3 {
+            padding: 12px 16px;
+            background: #161b22;
+            border-bottom: 1px solid #30363d;
+            color: #58a6ff;
+            font-size: 16px;
+        }
+        .change-item {
+            padding: 12px 16px;
+            border-bottom: 1px solid #21262d;
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+        }
+        .change-item:last-child { border-bottom: none; }
+        .change-badge {
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+        .change-badge.modified { background: rgba(210, 153, 34, 0.3); color: #d29922; }
+        .change-badge.added { background: rgba(63, 185, 80, 0.3); color: #3fb950; }
+        .change-badge.removed { background: rgba(248, 81, 73, 0.3); color: #f85149; }
+        .change-field { color: #79c0ff; font-family: monospace; font-size: 13px; }
+        .change-detail { color: #8b949e; font-size: 13px; flex: 1; }
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #8b949e;
+        }
+        .empty-state p { margin-top: 10px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>Clara Pipeline — Diff Viewer</h1>
+    <h2>Compare v1 and v2 Account Memos & Agent Specs</h2>
+
+    <div class="controls">
+        <div class="file-inputs">
+            <div>
+                <label>v1 JSON (Account Memo or Agent Spec):</label>
+                <input type="file" id="v1File" accept=".json">
+            </div>
+            <div>
+                <label>v2 JSON (Account Memo or Agent Spec):</label>
+                <input type="file" id="v2File" accept=".json">
+            </div>
+            <div>
+                <label>Changelog JSON (optional):</label>
+                <input type="file" id="changelogFile" accept=".json">
+            </div>
+        </div>
+        <button onclick="compareFiles()">Compare</button>
+    </div>
+
+    <div id="output">
+        <div class="empty-state">
+            <h3>Load JSON files to compare</h3>
+            <p>Select a v1 and v2 JSON file from your outputs directory, then click Compare.</p>
+            <p style="margin-top: 20px; font-size: 13px; color: #484f58;">
+                Example: outputs/accounts/coastal-plumbing-hvac/v1/account_memo_v1.json<br>
+                vs. outputs/accounts/coastal-plumbing-hvac/v2/account_memo_v2.json
+            </p>
+        </div>
+    </div>
+
+    <script>
+        let v1Data = null;
+        let v2Data = null;
+        let changelogData = null;
+
+        document.getElementById('v1File').addEventListener('change', (e) => {
+            readFile(e.target.files[0], (data) => { v1Data = data; });
+        });
+        document.getElementById('v2File').addEventListener('change', (e) => {
+            readFile(e.target.files[0], (data) => { v2Data = data; });
+        });
+        document.getElementById('changelogFile').addEventListener('change', (e) => {
+            readFile(e.target.files[0], (data) => { changelogData = data; });
+        });
+
+        function readFile(file, callback) {
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    callback(JSON.parse(e.target.result));
+                } catch (err) {
+                    alert('Invalid JSON file: ' + err.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function compareFiles() {
+            if (!v1Data || !v2Data) {
+                alert('Please select both v1 and v2 JSON files.');
+                return;
+            }
+
+            const changes = computeDiff(v1Data, v2Data);
+            renderOutput(v1Data, v2Data, changes, changelogData);
+        }
+
+        function computeDiff(v1, v2, prefix = '') {
+            const changes = [];
+            const allKeys = new Set([...Object.keys(v1 || {}), ...Object.keys(v2 || {})]);
+
+            for (const key of allKeys) {
+                const path = prefix ? `${prefix}.${key}` : key;
+                const val1 = v1 ? v1[key] : undefined;
+                const val2 = v2 ? v2[key] : undefined;
+
+                if (val1 === undefined) {
+                    changes.push({ type: 'added', field: path, to: val2 });
+                } else if (val2 === undefined) {
+                    changes.push({ type: 'removed', field: path, from: val1 });
+                } else if (typeof val1 === 'object' && typeof val2 === 'object'
+                           && val1 !== null && val2 !== null
+                           && !Array.isArray(val1) && !Array.isArray(val2)) {
+                    changes.push(...computeDiff(val1, val2, path));
+                } else if (JSON.stringify(val1) !== JSON.stringify(val2)) {
+                    changes.push({ type: 'modified', field: path, from: val1, to: val2 });
+                }
+            }
+            return changes;
+        }
+
+        function renderOutput(v1, v2, changes, changelog) {
+            const modified = changes.filter(c => c.type === 'modified').length;
+            const added = changes.filter(c => c.type === 'added').length;
+            const removed = changes.filter(c => c.type === 'removed').length;
+            const changedFields = new Set(changes.map(c => c.field));
+
+            let html = `
+                <div class="summary">
+                    <h3>Change Summary</h3>
+                    <div class="stats">
+                        <div class="stat-box total"><span class="number">${changes.length}</span><span class="label">Total Changes</span></div>
+                        <div class="stat-box modified"><span class="number">${modified}</span><span class="label">Modified</span></div>
+                        <div class="stat-box added"><span class="number">${added}</span><span class="label">Added</span></div>
+                        <div class="stat-box removed"><span class="number">${removed}</span><span class="label">Removed</span></div>
+                    </div>
+                </div>
+
+                <div class="diff-container">
+                    <div class="diff-panel">
+                        <div class="diff-panel-header">— v1 (Demo)</div>
+                        <div class="diff-content">${renderJson(v1, changedFields, 'v1')}</div>
+                    </div>
+                    <div class="diff-panel">
+                        <div class="diff-panel-header">+ v2 (Onboarding)</div>
+                        <div class="diff-content">${renderJson(v2, changedFields, 'v2')}</div>
+                    </div>
+                </div>
+            `;
+
+            if (changes.length > 0) {
+                html += `<div class="change-list"><h3>Detailed Changes (${changes.length})</h3>`;
+                for (const change of changes) {
+                    const badge = `<span class="change-badge ${change.type}">${change.type}</span>`;
+                    const field = `<span class="change-field">${change.field}</span>`;
+                    let detail = '';
+                    if (change.type === 'modified') {
+                        detail = `<span class="change-detail">${esc(JSON.stringify(change.from))} → ${esc(JSON.stringify(change.to))}</span>`;
+                    } else if (change.type === 'added') {
+                        detail = `<span class="change-detail">${esc(JSON.stringify(change.to))}</span>`;
+                    } else {
+                        detail = `<span class="change-detail">${esc(JSON.stringify(change.from))}</span>`;
+                    }
+                    html += `<div class="change-item">${badge} ${field} ${detail}</div>`;
+                }
+                html += `</div>`;
+            }
+
+            document.getElementById('output').innerHTML = html;
+        }
+
+        function renderJson(obj, changedFields, side, prefix = '', indent = 0) {
+            if (obj === null || obj === undefined) return '<span class="null">null</span>';
+            if (typeof obj !== 'object') return colorize(obj);
+
+            const pad = '  '.repeat(indent);
+            const padInner = '  '.repeat(indent + 1);
+            const isArray = Array.isArray(obj);
+            let lines = [];
+            lines.push(isArray ? '[' : '{');
+
+            const entries = isArray ? obj.map((v, i) => [i, v]) : Object.entries(obj);
+            entries.forEach(([key, value], idx) => {
+                const path = prefix ? `${prefix}.${key}` : String(key);
+                const isChanged = changedFields.has(path);
+                const cls = isChanged ? (side === 'v1' ? 'removed' : 'added') : '';
+
+                let line = padInner;
+                if (!isArray) {
+                    line += `<span class="key">"${esc(String(key))}"</span>: `;
+                }
+
+                if (typeof value === 'object' && value !== null) {
+                    line += renderJson(value, changedFields, side, path, indent + 1);
+                } else {
+                    line += colorize(value);
+                }
+
+                if (idx < entries.length - 1) line += ',';
+                lines.push(`<div class="diff-line ${cls}">${line}</div>`);
+            });
+
+            lines.push(pad + (isArray ? ']' : '}'));
+            return lines.join('\n');
+        }
+
+        function colorize(val) {
+            if (val === null || val === undefined) return '<span class="null">null</span>';
+            if (typeof val === 'string') return `<span class="string">"${esc(val.length > 200 ? val.substring(0, 200) + '...' : val)}"</span>`;
+            if (typeof val === 'number') return `<span class="number">${val}</span>`;
+            if (typeof val === 'boolean') return `<span class="boolean">${val}</span>`;
+            return esc(String(val));
+        }
+
+        function esc(str) {
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+    </script>
+</body>
+</html>

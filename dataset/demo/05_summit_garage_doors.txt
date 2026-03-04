@@ -1,0 +1,69 @@
+DEMO CALL TRANSCRIPT - Summit Garage Doors & Openers
+Date: January 12, 2026
+Participants: Priya (Clara Sales Rep), Ray Okafor (Owner, Summit Garage Doors & Openers)
+
+---
+
+Priya: Hey Ray, good to meet you. Let's talk about your business and what you need from Clara.
+
+Ray: Hey Priya. So Summit Garage Doors — we do residential and commercial garage door sales, installation, and repair. We've been around for six years now, based out of Denver. Colorado is a great market for us because of the weather — garage doors take a beating with the cold, snow, and wind.
+
+Priya: Makes sense. How large is the company?
+
+Ray: We're a smaller outfit but we stay busy. Five technicians, myself included — I still go out on jobs. One office person, my wife Lisa, who handles the phones, bookkeeping, and ordering parts. But Lisa also runs the house and has our two kids, so she can't be on the phone all day every day. That's where you guys come in.
+
+Priya: So Lisa's the current phone handler but it's not sustainable?
+
+Ray: Right. And here's the thing — garage door calls are often urgent. Someone's garage door is stuck open in January in Denver? That's their car getting buried in snow. Someone's spring broke while the door is halfway up? They can't close it and they're worried about security. These people need to talk to someone NOW, not leave a voicemail.
+
+Priya: Absolutely. So let's define what's an emergency for your business.
+
+Ray: Garage door stuck open and they can't close it — that's number one. Especially in winter. A door that fell off the tracks while someone was under it or near it — safety issue. A broken spring or cable with the door stuck partway — potential danger. A garage door opener that's sparking or smoking. And commercial roll-up doors that won't close at a business — they can't secure their property. Those are all emergencies.
+
+Priya: During emergencies, who should get the call?
+
+Ray: During business hours, just route it to our dispatch number — 720-555-0342 — and Lisa or I will handle it. After hours, try me first at 720-555-0190. Give me about 45 seconds. If I don't answer, try my lead tech, Dominic Reeves, at 720-555-0456. If nobody answers, take all the info and tell the customer we'll call back within 20 minutes.
+
+Priya: Got it. What about your regular call types?
+
+Ray: Most calls are one of three things. One, someone's garage door isn't working and they need a repair. Two, someone wants a new garage door or opener installed — usually they're remodeling or the old one finally died. Three, they want a quote or estimate. For repairs, I want the AI to find out what's wrong — is the door stuck, is it making noise, is it the opener, did a spring break? That helps me figure out what parts to bring. For new installs, I want to know if it's a single or double garage, how many doors, and whether they want just the door, just the opener, or both.
+
+Priya: That level of detail is doable. What do you NOT do?
+
+Ray: We don't do gate operators — like automatic driveway gates. We don't do entry doors or storm doors. And we don't work on anything above 20 feet — so some industrial or warehouse overhead doors, we pass on those. We refer industrial stuff to Iron Horse Industrial Doors, their number is 720-555-0800.
+
+Priya: What's your CRM situation?
+
+Ray: We use HouseCall Pro. Lisa enters everything manually right now.
+
+Priya: Perfect, we have a HouseCall Pro integration. So when the AI takes a call, all the customer info and job details can flow right into HouseCall Pro automatically.
+
+Ray: That alone is worth it. Lisa spends an hour a day just entering call notes.
+
+Priya: Business hours?
+
+Ray: Monday through Friday, 8 AM to 6 PM Mountain Time. Saturday 9 AM to 3 PM. Emergency service available till 9 PM daily. Closed Sunday.
+
+Priya: Office address?
+
+Ray: 5280 Morrison Road, Unit 12, Denver, Colorado 80219.
+
+Priya: For your call volume and service area, I'd recommend our standard plan at $299 per month. You get 600 minutes, HouseCall Pro integration, real-time notifications, and full call recordings.
+
+Ray: How does that compare to what most of your garage door clients pay?
+
+Priya: It's our most popular tier for businesses your size. Some of our larger clients with 15-plus trucks go for the Pro tier at $499, but for five techs, the standard plan is the sweet spot.
+
+Ray: Alright, sounds fair. Let's roll with it.
+
+Priya: I'll send the contract to ray@summitgaragedoors.com. Kickoff — how about Friday at 1 PM Mountain?
+
+Ray: 1 PM works. Legal name is Summit Garage Doors & Openers LLC. Billing address is the same as office.
+
+Priya: Before we wrap, any preference on the greeting?
+
+Ray: Yeah — "Thank you for calling Summit Garage Doors, Denver's garage door experts. How can I help you?" Keep it simple.
+
+Priya: Perfect. Welcome to Clara, Ray. Talk Friday.
+
+Ray: Thanks Priya. See you then.

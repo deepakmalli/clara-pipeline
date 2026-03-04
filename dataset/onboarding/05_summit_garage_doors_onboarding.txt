@@ -1,0 +1,59 @@
+ONBOARDING CALL TRANSCRIPT - Summit Garage Doors & Openers
+Date: January 15, 2026
+Participants: Priya (Clara Onboarding Specialist), Ray Okafor (Owner, Summit Garage Doors & Openers)
+
+---
+
+Priya: Hey Ray, welcome to the onboarding call. Let's make sure your AI agent knows everything it needs to.
+
+Ray: Hey Priya. Yeah, a few things have changed since we talked. Let me walk you through them.
+
+Priya: Let's start with what I have. Summit Garage Doors & Openers LLC, 5280 Morrison Road, Unit 12, Denver, Colorado 80219. Hours Monday through Friday 8 AM to 6 PM, Saturday 9 AM to 3 PM. Emergency service till 9 PM daily. Closed Sunday.
+
+Ray: Address is good. Hours — I want to change the emergency availability. Instead of cutting off at 9 PM, let's go full 24/7 on emergencies. I just hired a night-shift tech who's willing to do after-hours calls. His name is Jerome Patterson, number 720-555-0634. So after 9 PM, emergency calls go to Jerome first. If he doesn't answer, then me.
+
+Priya: So your full emergency chain is now time-based. During business hours: dispatch at 720-555-0342. After hours until 9 PM: you first at 720-555-0190, then Dominic Reeves at 720-555-0456. After 9 PM: Jerome Patterson first, then you.
+
+Ray: Exactly. Oh, and remove Dominic from the chain. He quit last week. Went to work for a competitor. So after hours until 9 PM: try me first, then Jerome. After 9 PM: Jerome first, then me.
+
+Priya: Got it. Dominic Reeves removed. Updated emergency chain noted. Any changes to what counts as an emergency?
+
+Ray: Add one thing. If a customer reports that their garage door opener is running continuously — like the motor won't stop — that's an emergency because it's a fire hazard and it'll burn out the motor. Also, I want the AI to always ask if anyone is trapped or unable to exit through the garage. If someone is trapped, that should be treated as the highest priority emergency.
+
+Priya: Absolutely. Safety first. Now for services — I have residential and commercial garage door sales, installation, and repair. You don't do gate operators, entry doors, storm doors, or anything above 20 feet.
+
+Ray: Few changes. First — we now do gate operators. I sent my guys to LiftMaster training last month and we're now certified for gate operator installation and repair. We can do swing gates, slide gates, and barrier arms as long as they're LiftMaster brand. Other brands we still refer out.
+
+Priya: Gate operators for LiftMaster brand added. Anything else?
+
+Ray: We're also now offering smart home integration for garage doors. MyQ, Chamberlain, and LiftMaster smart openers — we can install them, set up the app for the customer, and connect it to their smart home system. It's been a popular add-on.
+
+Priya: Smart home garage door integration. Love it. Any services to remove?
+
+Ray: No, everything else stays. Oh actually — I want to be clear about commercial. We now do up to 25 feet instead of 20. We bought a new lift so we can handle bigger doors. But anything above 25 feet or any warehouse dock doors, still refer to Iron Horse at 720-555-0800.
+
+Priya: Updated from 20 to 25 feet max. Now for your CRM — HouseCall Pro integration is live. How do you want calls categorized?
+
+Ray: I want every call tagged as one of these: repair — door, repair — opener, new installation, estimate request, gate operator, smart home, or general inquiry. And for repair calls, always ask the customer: what's the make and model of their door or opener if they know it, and whether the door is a single or double.
+
+Priya: We'll build those qualifying questions into the flow. Any team changes?
+
+Ray: Yes. Lisa — my wife — is stepping back from answering phones entirely. That's the whole point of Clara, right? She'll focus on bookkeeping and ordering. So all notifications should go to me and my new lead tech, Sam Nguyen. Sam's number is 720-555-0512, email sam@summitgaragedoors.com.
+
+Priya: So notifications go to you and Sam. Text for all calls?
+
+Ray: texts to me and Sam for all calls. Email summaries to me at end of day — let's say 7 PM Mountain. For emergencies, text me, Sam, and Jerome immediately.
+
+Priya: Perfect setup. Any update on the greeting?
+
+Ray: Yeah, let's update it. "Thank you for calling Summit Garage Doors and Openers. We handle garage doors, gate operators, and smart home installation. For emergencies, press 1 or say 'emergency.' How can I help you?"
+
+Priya: Nice — longer but informative. We'll program the emergency keyword trigger. Anything else?
+
+Ray: One more thing. I need the AI to ask every caller if they're a homeowner or a property manager. We give property managers who manage multiple properties a 10 percent volume discount. That's our "Property Pro" program. If they manage 5 or more properties, flag them as a Property Pro lead so I can follow up personally.
+
+Priya: Great qualifier. Property manager detection with Property Pro flagging. I think we're set. Your updated agent will be live by tomorrow at 8 AM.
+
+Ray: Excellent. Let's go.
+
+Priya: Thanks Ray. Talk soon!

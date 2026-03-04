@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    container_name: clara-n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=clara2026
+      - GENERIC_TIMEZONE=America/New_York
+      - N8N_SECURE_COOKIE=false
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./dataset:/data/dataset:ro
+      - ./outputs:/data/outputs
+      - ./workflows:/data/workflows:ro
+      - ./scripts:/data/scripts:ro
+      - ./templates:/data/templates:ro
+
+  ollama:
+    image: ollama/ollama
+    container_name: clara-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    # Uncomment below for GPU support (NVIDIA):
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+volumes:
+  n8n_data:
+  ollama_data:

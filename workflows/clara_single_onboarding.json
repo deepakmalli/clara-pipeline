@@ -1,0 +1,70 @@
+{
+  "name": "Clara Pipeline - Single Onboarding Call",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "clara/onboarding",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-onboarding",
+      "name": "Onboarding Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "webhookId": "clara-onboarding-webhook",
+      "notes": "POST /webhook/clara/onboarding with { \"file_path\": \"dataset/onboarding/call1.txt\", \"account_id\": \"optional\" }"
+    },
+    {
+      "parameters": {
+        "command": "={{ 'cd /data && python3 run_pipeline.py onboarding --input ' + $json.body.file_path + ($json.body.account_id ? ' --account-id ' + $json.body.account_id : '') + ' 2>&1' }}"
+      },
+      "id": "run-onboarding-pipeline",
+      "name": "Run Pipeline B",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [500, 300],
+      "notes": "Execute Pipeline B for a single onboarding call"
+    },
+    {
+      "parameters": {
+        "options": {
+          "responseCode": 200
+        },
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ status: 'success', output: $json.stdout }) }}"
+      },
+      "id": "respond-onboarding",
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [740, 300]
+    }
+  ],
+  "connections": {
+    "Onboarding Webhook": {
+      "main": [
+        [
+          { "node": "Run Pipeline B", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Run Pipeline B": {
+      "main": [
+        [
+          { "node": "Respond", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "tags": [
+    { "name": "clara-pipeline" }
+  ],
+  "triggerCount": 1,
+  "updatedAt": "2026-03-03T00:00:00.000Z",
+  "versionId": "1"
+}

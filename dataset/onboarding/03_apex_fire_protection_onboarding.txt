@@ -1,0 +1,57 @@
+ONBOARDING CALL TRANSCRIPT - Apex Fire Protection Services
+Date: January 13, 2026
+Participants: Jordan (Clara Onboarding Specialist), Mike Thornton (Owner, Apex Fire Protection Services)
+
+---
+
+Jordan: Hey Mike, let's get your agent dialed in. I've got all the notes from our demo call. Let me walk through them and you tell me what's changed.
+
+Mike: Let's do it. I actually have a whole page of notes here.
+
+Jordan: Company is Apex Fire Protection Services Inc., located at 3420 Peachtree Industrial Boulevard, Suite 180, Duluth, Georgia 30096. Hours Monday through Friday, 7 AM to 5 PM Eastern. Emergency service 24/7.
+
+Mike: Address is correct. But I want to extend regular hours to 6 PM on weekdays. I realized our west Georgia customers are in Central Time and they call later. Also, I want to add Saturday hours — 8 AM to 12 PM. No Sunday.
+
+Jordan: Hours updated. 7 AM to 6 PM weekdays, 8 AM to noon Saturdays. Now for emergency escalation — I have Kevin Ross first at 770-555-0384, then you at 770-555-0291.
+
+Mike: Change that. Kevin left the company. He moved to Florida. My new senior project manager is Lisa Yuan. Her number is 770-555-0817. She should be first in the escalation chain. Then me. And add a third — Brandon Hayes, our new field supervisor, at 678-555-0293.
+
+Jordan: So the chain is now Lisa Yuan, you, then Brandon Hayes. Got it. And emergencies are: sprinkler system activated and flooding, system offline needing fire watch, calls from fire marshals or code enforcement, broken mains or risers, and sprinklers leaking or zones down.
+
+Mike: Add two more. First — if a customer reports a frozen pipe in their sprinkler system. Georgia doesn't get super cold often but when we do, pipes freeze and that's a major issue. Second — any call mentioning a building renovation or demolition that's affecting an active sprinkler system. Those can create safety hazards fast.
+
+Jordan: Good additions. Now for services — you do commercial fire sprinkler installation, inspection, and maintenance. You don't do fire alarms, fire extinguisher service, kitchen hood suppression, or residential single-family sprinklers.
+
+Mike: Two updates. One — I hired a fire alarm tech. We're now licensed to do fire alarm testing and monitoring in Georgia. So remove fire alarms from the don't-do list. We now offer fire alarm inspection, testing, and monitoring services. We still don't INSTALL fire alarm systems — just inspect and test existing ones.
+
+Jordan: Noted. Fire alarm inspection and testing — yes. Fire alarm installation — still no.
+
+Mike: Right. Second update — we're seeing a lot of demand for backflow preventer testing on sprinkler systems. We've always done it but I never mentioned it as a service. Make sure it's listed. And annual backflow testing is a separate line item from regular sprinkler inspection.
+
+Jordan: Backflow preventer testing added as an explicit service. Any changes on what you DON'T do?
+
+Mike: We still don't do fire extinguisher service, kitchen hood suppression, or residential single-family. Add one more — we don't do clean agent systems. Those are specialized and we don't carry that certification.
+
+Jordan: Got it. Now for HouseCall Pro integration — that's all connected. Any preferences on how jobs should flow?
+
+Mike: Yes. I want the AI to categorize every call as one of these types: emergency, inspection request, maintenance call, new project inquiry, or general question. And for inspection requests, I need the AI to ask what type of inspection — annual, five-year, or a special inspection triggered by a code violation.
+
+Jordan: We can absolutely build that into the call flow. Any updates to the team?
+
+Mike: Yeah. We went from twelve field techs to fifteen. And I hired an office administrator, Sarah Chen. Email is sarah@apexfireprotection.com. She should receive email summaries of all calls plus a daily report at 6 PM Eastern.
+
+Jordan: Daily report at 6 PM — great. And the greeting?
+
+Mike: Let's go with "Thank you for calling Apex Fire Protection Services. For emergencies, say 'emergency' at any time. How can I direct your call?" I want people to know upfront that we handle emergencies.
+
+Jordan: Love that. Emergency keyword prompting. We'll program the agent to immediately escalate when the caller says "emergency."
+
+Mike: Perfect. Oh, and one more thing. The billing address has changed. We're now billing through our parent company. Bill to National Fire Systems Group, 4200 Northlake Parkway, Suite 300, Tucker, Georgia 30084.
+
+Jordan: Billing address updated. Anything else, Mike?
+
+Mike: I think we're good. This is way more detailed than I expected — I like it.
+
+Jordan: That's the Clara way. I'll get everything configured and your agent should be live by Wednesday. Welcome aboard.
+
+Mike: Thanks Jordan.

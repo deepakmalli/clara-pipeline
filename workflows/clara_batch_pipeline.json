@@ -1,0 +1,171 @@
+{
+  "name": "Clara Pipeline - Demo to Agent",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "trigger-1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "operation": "list",
+        "folderPath": "/data/dataset/demo"
+      },
+      "id": "list-demo-files",
+      "name": "List Demo Transcripts",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [460, 200],
+      "notes": "List all transcript files in the demo directory"
+    },
+    {
+      "parameters": {
+        "operation": "list",
+        "folderPath": "/data/dataset/onboarding"
+      },
+      "id": "list-onboarding-files",
+      "name": "List Onboarding Transcripts",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [460, 400],
+      "notes": "List all transcript files in the onboarding directory"
+    },
+    {
+      "parameters": {
+        "command": "cd /data && python3 run_pipeline.py batch 2>&1"
+      },
+      "id": "run-batch",
+      "name": "Run Full Batch Pipeline",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [700, 300],
+      "notes": "Runs both Pipeline A (demo→v1) and Pipeline B (onboarding→v2) on all files"
+    },
+    {
+      "parameters": {
+        "filePath": "/data/outputs/batch_report.json",
+        "options": {}
+      },
+      "id": "read-report",
+      "name": "Read Batch Report",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [920, 300],
+      "notes": "Read the batch processing report"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{ $json.summary.errors }}",
+              "operation": "equal",
+              "value2": 0
+            }
+          ]
+        }
+      },
+      "id": "check-errors",
+      "name": "Check for Errors",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [1140, 300]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "status",
+              "value": "Pipeline completed successfully"
+            },
+            {
+              "name": "demo_processed",
+              "value": "={{ $json.summary.demo_processed }}"
+            },
+            {
+              "name": "onboarding_processed",
+              "value": "={{ $json.summary.onboarding_processed }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "success-output",
+      "name": "Success Summary",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [1360, 200]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "status",
+              "value": "Pipeline completed with errors"
+            },
+            {
+              "name": "errors",
+              "value": "={{ JSON.stringify($json.results.errors) }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "error-output",
+      "name": "Error Summary",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [1360, 400]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          { "node": "List Demo Transcripts", "type": "main", "index": 0 },
+          { "node": "List Onboarding Transcripts", "type": "main", "index": 0 },
+          { "node": "Run Full Batch Pipeline", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Run Full Batch Pipeline": {
+      "main": [
+        [
+          { "node": "Read Batch Report", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Read Batch Report": {
+      "main": [
+        [
+          { "node": "Check for Errors", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Check for Errors": {
+      "main": [
+        [
+          { "node": "Success Summary", "type": "main", "index": 0 }
+        ],
+        [
+          { "node": "Error Summary", "type": "main", "index": 0 }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    { "name": "clara-pipeline" }
+  ],
+  "triggerCount": 1,
+  "updatedAt": "2026-03-03T00:00:00.000Z",
+  "versionId": "1"
+}

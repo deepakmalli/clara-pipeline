@@ -1,0 +1,65 @@
+DEMO CALL TRANSCRIPT - Coastal Plumbing & HVAC
+Date: January 9, 2026
+Participants: Priya (Clara Sales Rep), Maria Santiago (Owner, Coastal Plumbing & HVAC)
+
+---
+
+Priya: Hi Maria, thanks so much for joining me today. I saw you filled out our form — sounds like you're interested in automating your phone handling. Tell me a bit about your business.
+
+Maria: Hi Priya. Yeah, so Coastal Plumbing & HVAC — we've been operating for twelve years now out of San Diego. Started as just plumbing but about six years ago we expanded into HVAC. Now we do both residential and light commercial.
+
+Priya: Nice. How big is the operation now?
+
+Maria: We've got seven technicians in the field — four plumbing, three HVAC. Two office staff. My office manager Rosa handles most of the day-to-day scheduling and my dispatcher Tony handles routing. But Rosa can't answer every call, especially during our busy season.
+
+Priya: When's busy season for you?
+
+Maria: Summer is insane. AC units dying left and right. We'll get 60, 70 calls a day during a heat wave. Even during normal times we get about 25 to 30 calls a day. Rosa says she misses maybe 20 percent of them on a regular day and probably 40 percent during peak.
+
+Priya: Wow, that's a lot of missed revenue. So walk me through what a call looks like when someone rings in.
+
+Maria: Most calls fall into three buckets. One — someone has an emergency like a burst pipe or their AC went out when it's 105 degrees. Two — they need to schedule a service call, like a clogged drain or their furnace needs maintenance. Three — they're calling for a quote on a bigger project, like a bathroom remodel or a new HVAC system install.
+
+Priya: And for emergencies, what's the protocol?
+
+Maria: For plumbing emergencies — burst pipes, sewer backups, gas leaks, no hot water in winter — those need to go to our on-call plumber immediately. Right now that's either me or my lead plumber, Carlos Vega. For HVAC emergencies — no AC during extreme heat, no heat during winter, carbon monoxide detector going off — those go to our HVAC lead, James Park.
+
+Priya: What if neither of them picks up?
+
+Maria: Then the AI should take detailed information. Name, phone, address, and description of the problem. And tell the customer we'll call back within 20 minutes. Always get the address. And if someone mentions a gas leak or carbon monoxide, tell them to call 911 first and leave the building, then take their info.
+
+Priya: That's really important, good call on the safety protocol. What about services you don't offer?
+
+Maria: We don't do new construction. We're strictly service, repair, and retrofit. We don't do ductless mini-split installs — we refer those out to Pacific Air Systems, their number is 619-555-0147. We also don't do water heater tankless conversions.
+
+Priya: Got it. What are your hours?
+
+Maria: Monday through Saturday, 7 AM to 6 PM Pacific Time. We have emergency service available 24/7 but regular scheduling is within those hours.
+
+Priya: And the address?
+
+Maria: 1847 Pacific Coast Highway, Suite 4B, San Diego, California 92109.
+
+Priya: What software do you use for scheduling?
+
+Maria: ServiceTitan. We live and die by ServiceTitan. Everything goes in there — calls, jobs, invoices, customer records.
+
+Priya: Great news on that — we have a live ServiceTitan integration. So when the AI takes a call and captures customer info, it can push that directly into ServiceTitan to create a new job or update an existing customer record.
+
+Maria: Oh that's huge. That was my biggest concern. I didn't want another system where I have to copy-paste information.
+
+Priya: Nope, we'll wire it up during onboarding. So for pricing — for your call volume, I'd recommend our standard plan at $399 per month. That gives you 1000 call minutes, which should cover your regular months. During peak season, overages are billed at 45 cents per minute so you won't get cut off.
+
+Maria: $399 a month is a lot less than the answering service I'm using now. They charge $1,200 and still mess up half the calls. Let's do it.
+
+Priya: Awesome! I'll send the agreement to maria@coastalphsd.com. And let's get the kickoff scheduled — how does Thursday at 10 AM Pacific work?
+
+Maria: Perfect. The legal name is Coastal Plumbing & HVAC LLC. Billing email is accounting@coastalphsd.com. My direct line is 619-555-0823.
+
+Priya: Great. And one last thing — is there anything specific you want the AI to say when it greets callers?
+
+Maria: Yeah, something like "Thank you for calling Coastal Plumbing and HVAC, San Diego's trusted service experts. How can I help you today?" Don't make it too long though.
+
+Priya: Love it. Alright Maria, contract's coming your way, and I'll see you Thursday. Welcome aboard!
+
+Maria: Thanks Priya, excited to get this going.

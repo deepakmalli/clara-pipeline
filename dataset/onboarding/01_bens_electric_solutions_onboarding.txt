@@ -1,0 +1,61 @@
+ONBOARDING CALL TRANSCRIPT - Ben's Electric Solutions Team
+Date: January 9, 2026
+Participants: Bharat (Clara Onboarding Specialist), Ben Penoyer (Owner, Ben's Electric Solutions Team)
+
+---
+
+Bharat: Hey Ben, welcome back. This is our kickoff call where we'll dial in all the details for your AI receptionist. I've got the notes from yesterday's demo, so let me walk through what we have and you tell me what needs to be changed or added.
+
+Ben: Sounds good, let's do it.
+
+Bharat: Okay, so we've got your company name as Ben's Electric Solutions Team. Address at 4815 Macleod Trail SW, Suite 210, Calgary, Alberta. Business hours Monday through Friday, 8 AM to 5 PM Mountain Time.
+
+Ben: Small correction — we actually moved suites last month. We're now in Suite 215, not 210. Same building, just a different unit. And I've been thinking — let's extend hours to 6 PM. I've been getting calls from customers at 5:30 saying we're already closed, and I don't want to lose those.
+
+Bharat: Got it. Suite 215, and hours now 8 AM to 6 PM Monday through Friday. Anything on weekends?
+
+Ben: Yeah, actually let's add Saturday 9 AM to 1 PM as a trial. I won't have a crew working but I want the AI to book appointments for Monday. If it goes well, I might staff Saturdays later.
+
+Bharat: Smart. Okay, for emergency escalation I have: first try you, then Dave Martinez if you don't answer in 30 seconds. Correct?
+
+Ben: I want to change the order. Try Dave first. He's a night owl anyway and he handles the on-call rotation now. His number is 403-555-0147. If Dave doesn't answer in 30 seconds, then try me at 403-870-8494. And actually, add a third contact — my new apprentice Tony Russo. He's been with us six months and I trust him on emergency assessments. His number is 403-555-0263. Try Tony as a third option.
+
+Bharat: So the escalation chain is Dave Martinez, then you, then Tony Russo. Got it. And emergencies are still the same — no power, sparking wires, smoking panels, water near electrical?
+
+Ben: Yes, but add one more. Electrical burning smell — if a customer says they smell something burning near their panel or outlets, that's an emergency. Also add tripped main breaker that won't reset. Those should both be treated as urgent.
+
+Bharat: Good additions. Now for services — I have residential electrical, commercial electrical, panel upgrades, EV charger installs, lighting, rewiring, code corrections, and general service calls. Services you don't offer: solar, low voltage like cameras and networking, and appliance repair.
+
+Ben: That's right, but I want to add a service we picked up. We now do generator installation and hookup. We got our gas fitting ticket last quarter, so we can do whole-home standby generators. Generac and Kohler are the brands we install. Add that to the list.
+
+Bharat: Generator installation — Generac and Kohler. Got it. Anything else on services?
+
+Ben: Yeah, one update. We can now do some low-voltage work. We got a tech certified in EV charging stations and he can also do smart home wiring — like running Cat6 for home networks. So remove "low voltage" from the don't-do list, but keep "security cameras" as something we don't do. We do smart home wiring and structured cabling but not security camera installation.
+
+Bharat: Clear. So the updated no-go list is: solar installation, security camera installation, and appliance repair.
+
+Ben: Right.
+
+Bharat: Now for the CRM — you use Jobber. We discussed that integration isn't live yet. Any changes there?
+
+Ben: No, still using Jobber. But I do want to mention — when the AI takes call information, I want it to always ask for the customer's email address in addition to name, phone, and address. I use email a lot for sending Jobber quotes and invoices.
+
+Bharat: Noted — always collect email. Any preference on notifications?
+
+Ben: On the demo call I said email and text for emergencies. Let's do text for all calls — every call should send me and Dave a text summary. Emails for emergencies only plus a daily digest email of all calls at 7 PM Mountain Time.
+
+Bharat: Love the daily digest idea. We can configure that. Any update on the greeting?
+
+Ben: Yeah, let's go with "Thanks for calling Ben's Electric Solutions Team, Calgary's trusted electricians. How can we help?" Short and professional.
+
+Bharat: Perfect. And billing — legal name is still Ben's Electric Solutions Team Ltd?
+
+Ben: Yes. Oh, one thing — I added a second phone number for the business. It's 403-555-0300. That's our new dedicated service line. The main number 403-870-8494 is staying as my cell and the general number. Route the Clara AI to answer the 403-555-0300 line.
+
+Bharat: Got it. Clara will answer 403-555-0300 as the primary service line. Anything else, Ben?
+
+Ben: I think that covers it. Oh wait — one more thing. I need the AI to ask every new customer how they heard about us. I'm tracking my marketing spend and I need to know if they found us on Google, HomeStars, a referral, or a yard sign. Make that a required question for new callers.
+
+Bharat: Great idea. We'll add a "How did you hear about us?" question to the new customer flow. Alright Ben, I'll get all these updates configured and send you a confirmation email with the updated agent setup. Your line should be live by end of day tomorrow.
+
+Ben: Awesome. Thanks Bharat.

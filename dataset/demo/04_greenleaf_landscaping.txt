@@ -1,0 +1,61 @@
+DEMO CALL TRANSCRIPT - GreenLeaf Landscaping & Tree Care
+Date: January 11, 2026
+Participants: Bharat (Clara Sales Rep), Angela Kim (Owner, GreenLeaf Landscaping & Tree Care)
+
+---
+
+Bharat: Angela, thanks for joining me. I'm excited to chat about how Clara can help your business. Tell me what you're working with.
+
+Angela: Hi Bharat. So GreenLeaf — we're a full-service landscaping and tree care company based in Austin, Texas. We've been in business nine years. Started doing just lawn maintenance and over the years we've expanded into hardscaping, irrigation, and tree services. We do everything from basic lawn care to full landscape design-builds and tree removal.
+
+Bharat: That's a wide range of services. How big is the team?
+
+Angela: We have twenty-two employees total. Eight are on three mowing crews, four handle hardscaping projects, three are climbers and ground crew for tree work, two do irrigation, and the rest are office and management. My operations manager, Derek Simmons, handles a lot of the scheduling. And I have one receptionist, but she only works until 2 PM because she's part-time.
+
+Bharat: So after 2 PM, calls go unanswered?
+
+Angela: Exactly. After 2 PM calls either ring to my cell or go to voicemail. And honestly, a lot of our residential customers call in the evening when they get home from work and notice their sprinkler is broken or a tree branch fell. Those calls just go nowhere until the next morning. I know we're losing business.
+
+Bharat: That's a common problem. What does a typical call look like?
+
+Angela: Okay so there are a few categories. About 40 percent of calls are from existing customers — they're on a maintenance plan and they need something extra, like "hey, a branch fell on my fence" or "can you add spring mulching to my service." About 30 percent are new customers wanting a quote — usually for lawn care, a new patio, or tree work. Maybe 15 percent are scheduling or rescheduling. And the rest are random — solicitors, wrong numbers, vendors calling about deliveries.
+
+Bharat: Got it. Any emergencies in landscaping?
+
+Angela: Not really emergencies like a plumber would have, but we do get urgent calls. A tree fell on someone's house or car — that's urgent. A main irrigation line burst and their yard is flooding — that's urgent. A large limb cracked and is hanging over a power line — that's urgent and they should call the power company too. Those need to come to me or Derek right away.
+
+Bharat: What's the escalation chain for urgent calls?
+
+Angela: Try Derek first — his number is 512-555-0876. If he doesn't answer in 30 seconds, try me at 512-555-0199. If neither of us answers, get their name, phone, address, and description, and tell them we'll call back within 30 minutes. For a tree on a power line, make sure the AI tells them to also call Austin Energy at 512-322-9100 and stay away from the tree.
+
+Bharat: Smart. What about services you don't offer?
+
+Angela: We don't do pool installation or pool maintenance. We don't do pest control. And we stopped doing Christmas light installation last year — it wasn't worth the liability. If someone asks about any of those, just say we don't offer that service.
+
+Bharat: What CRM or scheduling tool do you use?
+
+Angela: We use Jobber. We switched from pen and paper about three years ago and it changed our life. All our routes, clients, estimates, and invoicing are in Jobber.
+
+Bharat: Okay, so our Jobber integration is currently in development. In the meantime, every call gets captured as a transcript and summary with all the details, and we push those to you in real time via email and text. Once the integration is live, it'll feed directly into Jobber.
+
+Angela: As long as I get notified immediately, that's fine. I check my phone constantly anyway.
+
+Bharat: Business hours and address?
+
+Angela: Monday through Friday, 7:30 AM to 5:30 PM. Saturday 8 AM to noon — we do a half-day on Saturdays for residential maintenance. Closed Sunday. Central Time. Address is 6200 Bee Cave Road, Building C, Austin, Texas 78746.
+
+Bharat: And the greeting?
+
+Angela: Something like "Thanks for calling GreenLeaf Landscaping and Tree Care, Austin's outdoor experts. How can I help you?" Short and professional.
+
+Bharat: Love it. For pricing — given your call volume and hours including Saturday mornings, I'd suggest our standard plan at $299 per month. That's 600 minutes, real-time notifications, and call recordings.
+
+Angela: That's a no-brainer. My part-time receptionist costs me $2,400 a month and she can't work evenings or weekends. I still want to keep her for in-person stuff though. Let's layer Clara on top.
+
+Bharat: Perfect strategy. The AI handles the phone, your receptionist handles walk-ins and office work. I'll send the contract to angela@greenleafatx.com. Kickoff Wednesday at 11 AM Central?
+
+Angela: Works for me. Legal name is GreenLeaf Landscaping & Tree Care LLC. Same billing address. My phone is 512-555-0199.
+
+Bharat: Done. See you Wednesday, Angela!
+
+Angela: Looking forward to it. Thanks Bharat.

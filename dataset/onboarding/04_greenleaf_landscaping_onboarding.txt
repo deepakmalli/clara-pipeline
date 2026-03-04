@@ -1,0 +1,63 @@
+ONBOARDING CALL TRANSCRIPT - GreenLeaf Landscaping & Tree Care
+Date: January 14, 2026
+Participants: Bharat (Clara Onboarding Specialist), Angela Kim (Owner, GreenLeaf Landscaping & Tree Care)
+
+---
+
+Bharat: Angela! Good to reconnect. Let's go through your setup point by point and get your AI receptionist perfectly tuned.
+
+Angela: Hey Bharat. I've actually been looking forward to this — I wrote down a bunch of things I want to change from what we discussed.
+
+Bharat: Perfect. Let's start with the basics. GreenLeaf Landscaping & Tree Care LLC, 6200 Bee Cave Road, Building C, Austin, Texas 78746. Hours Monday through Friday 7:30 AM to 5:30 PM, Saturday 8 AM to noon. Central Time.
+
+Angela: Address is fine. Hours — I want to change up slightly. Move Monday through Friday to 7 AM to 6 PM. We've been starting earlier because the crews leave at 7 and customers see them and call right away. And Saturday let's do 8 AM to 2 PM instead of noon. I'm staffing Saturdays more now.
+
+Bharat: Got it. 7 AM to 6 PM weekdays, 8 AM to 2 PM Saturday. Emergency escalation — I have Derek Simmons first at 512-555-0876, then you at 512-555-0199.
+
+Angela: Derek is still first, but his number changed. New number is 512-555-0902. And I want to add a third person — Rachel Torres, my new tree care division manager. She should specifically handle any tree-related urgent calls. Her number is 512-555-0741. So for tree emergencies — tree fell on a house, limb on a power line — go to Rachel first, then Derek, then me. For everything else urgent, Derek first, then me.
+
+Bharat: Nice — so we're splitting the escalation based on the type of urgency. Tree emergencies go Rachel, Derek, then you. All other urgencies go Derek, then you.
+
+Angela: Exactly. Rachel is an ISA certified arborist. She knows how to assess tree emergencies better than any of us.
+
+Bharat: Smart. Any changes to the urgent situations list?
+
+Angela: Add two things. First — if a customer reports a large tree or branch leaning toward their house or their neighbor's house, even if it hasn't fallen yet, that should be treated as urgent. Second — if someone reports a pest infestation in a tree, like oak wilt or emerald ash borer, I want that flagged as urgent because it can spread. Tell them we'll have our arborist call within an hour.
+
+Bharat: Got it. Now for services — I have lawn maintenance, hardscaping, irrigation, tree removal, tree trimming, landscape design-build. Don't do: pool installation, pool maintenance, pest control, Christmas lights.
+
+Angela: Updates here. We're now offering landscape lighting installation. We hired a guy who specializes in low-voltage outdoor lighting — LED path lights, uplighting, deck lights, that kind of thing. His name is Marcus Webb and he's been killing it. Also, we're now offering drainage solutions — French drains, grading, and catch basins. Water management has been a huge ask from customers.
+
+Bharat: Two new services — landscape lighting and drainage solutions. Anything removed?
+
+Angela: Actually yes. We dropped the hardscaping. I know, I know — it was a big part of the business. But the margins were terrible and it was eating up crew time. We now refer hardscaping to StoneWorks Austin, their number is 512-555-0623. If someone calls about a patio, retaining wall, or outdoor kitchen, send them to StoneWorks.
+
+Bharat: That's a big change. Hardscaping removed, referral to StoneWorks Austin. Anything else on the don't-do list?
+
+Angela: We also don't do lawn chemical application or fertilizing — we're an organic-only company now. We provide organic lawn care, but if someone specifically wants chemical treatments, weed killer, or synthetic fertilizer, we need to let them know we only offer organic alternatives.
+
+Bharat: Great distinction. Now for CRM — still on Jobber?
+
+Angela: Yes, still Jobber. And I actually have a question — can the AI create different lead categories? I want new inquiries sorted into: lawn care, tree care, landscape design, lighting, irrigation, or drainage. It would help Derek with dispatching to the right crew.
+
+Bharat: We can do that with the call categorization in the summary. Each call gets tagged with the service category. When the Jobber integration goes live, those categories will map to job types. For now, the tag will show up in your text and email notifications.
+
+Angela: That works. Speaking of notifications — any changes from what we discussed?
+
+Bharat: I have texts to you and Derek for all calls, emails to you for emergencies plus a daily digest at 7 PM Central.
+
+Angela: Updated — add Rachel Torres to text notifications for all tree-related calls. And add Marcus Webb at 512-555-0888 for text notifications on lighting inquiries only. Actually, change my daily digest time to 6 AM instead of 7 PM. I want to review the previous day's calls first thing in the morning.
+
+Bharat: Rachel gets tree call texts, Marcus gets lighting inquiry texts, and your digest moves to 6 AM. Got it.
+
+Angela: And the greeting — let's update it. "Thanks for calling GreenLeaf Landscaping and Tree Care. We're Austin's organic outdoor experts. How can we help you today?"
+
+Bharat: Love the organic branding. Any billing changes?
+
+Angela: Nope, everything the same there. Oh wait — one more thing. I want the AI to ask every caller about their lot size. Small, medium, or large. It helps us estimate labor and give quicker quotes. And for tree calls, ask approximately how tall the tree is and how close it is to the house.
+
+Bharat: Smart qualifiers. We'll build those into the call flows. I think we're in great shape. I'll have your updated agent live by Thursday morning.
+
+Angela: Awesome. You guys are so thorough. Thanks Bharat!
+
+Bharat: Thanks Angela. Talk soon!

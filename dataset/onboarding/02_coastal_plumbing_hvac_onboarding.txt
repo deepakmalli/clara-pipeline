@@ -1,0 +1,61 @@
+ONBOARDING CALL TRANSCRIPT - Coastal Plumbing & HVAC
+Date: January 12, 2026
+Participants: Priya (Clara Onboarding Specialist), Maria Santiago (Owner, Coastal Plumbing & HVAC)
+
+---
+
+Priya: Hi Maria, great to see you again. Let's go through everything from the demo call and fine-tune it for your AI setup. I'll read off what we have and you correct anything that's changed.
+
+Maria: Perfect, let's go.
+
+Priya: Company is Coastal Plumbing & HVAC LLC, located at 1847 Pacific Coast Highway, Suite 4B, San Diego, California 92109. Hours Monday through Saturday, 7 AM to 6 PM Pacific. Emergency service 24/7.
+
+Maria: One change on the address. We opened a second location last week. North County — 3205 El Camino Real, Suite 100, Carlsbad, California 92008. I want the AI to be able to handle calls for both locations. If the customer says they're in North County, Carlsbad, Encinitas, Oceanside, or Vista, route scheduling to our North County team.
+
+Priya: Congratulations on the expansion! So we'll add location-based routing. Who manages the North County office?
+
+Maria: My brother, Miguel Santiago. His direct line is 760-555-0432. He'll handle scheduling and dispatch for North County. Carlos Vega stays as plumbing emergency lead for the original San Diego location, and James Park stays as HVAC emergency for San Diego. For North County emergencies, route to Miguel first — he's a licensed plumber and can handle HVAC calls too.
+
+Priya: Got it. So the emergency chain is now location-dependent. San Diego: Carlos for plumbing, James for HVAC. North County: Miguel for both. And if nobody answers?
+
+Maria: Same as before — take detailed info, tell them we'll call back within 20 minutes. But add — if the customer is in North County and Miguel doesn't answer, then try Carlos as backup.
+
+Priya: Perfect. Now for services — I have plumbing and HVAC service, repair, and retrofit. You don't do new construction, ductless mini-splits, or tankless water heater conversions.
+
+Maria: Update on the mini-splits. We actually just sent two of our HVAC techs to get Mitsubishi-certified. We now install ductless mini-splits. It's been a highly requested service so we decided to invest in it. Remove that from the no-go list.
+
+Priya: Nice! So you now offer ductless mini-split installation. Anything else being added?
+
+Maria: Yes — we're now offering annual maintenance plans. We call them "Coastal Care Plans." Plumbing plan is $199 per year, HVAC plan is $249 per year, and a combo is $399 per year. When someone calls and seems like a repeat customer or mentions ongoing issues, I want the AI to mention the maintenance plan option. Not a hard sell, just a mention.
+
+Priya: Got it. Gentle upsell on maintenance plans. Any update on what you DON'T do?
+
+Maria: Add backflow testing to the things we don't do. We were doing it but we decided to refer it out — it requires a separate certification that's a pain to maintain. Refer those to West Coast Backflow, 619-555-0555.
+
+Priya: Noted. Now for ServiceTitan integration — everything is set up. New jobs will auto-create in ServiceTitan. Any preferences on how jobs should be categorized?
+
+Maria: Yes. When the AI creates a job in ServiceTitan, I need it to tag the call type: emergency, service call, quote request, or maintenance plan inquiry. And always include whether the customer is new or existing. That helps Rosa with the daily dispatch.
+
+Priya: We can do that with custom fields in ServiceTitan. Any update on the office team?
+
+Maria: Oh yes — Rosa retired. She's done. My new office manager is Patricia Gomez. Patricia starts Monday. Her email is patricia@coastalphsd.com. She'll be the main admin person so copy her on all notifications.
+
+Priya: So notifications go to you and Patricia?
+
+Maria: Texts to me for all calls. Emails to Patricia for all calls. For emergencies, text both of us plus the relevant emergency contact.
+
+Priya: Got it. And the greeting — still "Thank you for calling Coastal Plumbing and HVAC, San Diego's trusted service experts"?
+
+Maria: Change it slightly. "Thank you for calling Coastal Plumbing and HVAC, serving San Diego and North County. How can we help you today?" Need to reflect the new location coverage.
+
+Priya: Makes sense. Anything else?
+
+Maria: One more. For the billing — the pricing was $399 per month. With the second location, do we need a second plan?
+
+Priya: For now, one plan covers both locations since calls come into one main number. If call volume increases significantly, we may need to discuss upgrading. But for now, you're good.
+
+Maria: Okay great. That's everything I can think of.
+
+Priya: Wonderful. I'll get everything configured. Your updated agent should be live by Monday morning.
+
+Maria: Thanks Priya!

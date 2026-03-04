@@ -1,0 +1,85 @@
+DEMO CALL TRANSCRIPT - Ben's Electric Solutions Team
+Date: January 8, 2026
+Participants: Bharat (Clara Sales Rep), Ben Penoyer (Owner, Ben's Electric Solutions Team)
+
+---
+
+Bharat: Hey Ben, thanks for hopping on the call today. Really appreciate you taking the time. Before we dive in, tell me a little about yourself and your business.
+
+Ben: Yeah, sure. So I've been an electrician for about 30 years now. Been running my own business for the last eight years — Ben's Electric Solutions Team. We handle pretty much everything electrical — service calls, residential work, commercial jobs, and bigger projects too.
+
+Bharat: That's awesome, 30 years is a lot of experience. So how big is the team right now?
+
+Ben: Right now I've got three company vans on the road, plus two subcontractors I bring in when things get busy. I'm looking to expand to five full-time vans this year. That's part of why I'm looking at something like Clara — I need to scale up but I can't keep doing all the admin myself.
+
+Bharat: Makes sense. So who handles the office side of things right now?
+
+Ben: Honestly, I do most of it. I tried a virtual assistant before for data entry and answering calls, but it didn't really work out. They didn't understand the electrical business well enough. Customers would call and the VA couldn't tell the difference between a real emergency and someone just wanting a quote.
+
+Bharat: Yeah, I hear that a lot. So walk me through what happens when a customer calls right now.
+
+Ben: So during the day, I try to answer as many calls as I can. But when I'm on a job or in the attic running wire, I miss a lot of them. I'd say I probably miss 30 to 40 percent of calls during business hours. After hours, I'm personally on call for emergencies, but I can't answer everything.
+
+Bharat: And what would you consider an emergency for your business?
+
+Ben: An emergency for us would be like no power to the house, exposed or sparking wires, a panel that's smoking or making noise, water near electrical, or if someone's being required by the fire department or their insurance to get electrical work done immediately. Anything that's a safety hazard basically.
+
+Bharat: Got it. And when someone calls with an emergency after hours, what should happen?
+
+Ben: They should get me on the phone. If I don't pick up — give me about 30 seconds — then try my lead tech, Dave Martinez. If Dave doesn't answer either, take their information and let them know one of us will call back within 15 minutes. Make sure to get their name, number, and address. I want to know where the emergency is.
+
+Bharat: And for regular calls during the day?
+
+Ben: During business hours I'd want calls answered, figure out what the customer needs. If it's a service call, get their name, phone number, address, and what the issue is. If it's something we do, try to get them on the schedule. If it's something we don't handle — like we don't do solar installs — let them know politely.
+
+Bharat: What services do you NOT do? So we can make sure the AI knows.
+
+Ben: We don't do solar panel installation. We don't do low voltage like security cameras or network cabling. And we don't do appliance repair — if their dishwasher broke, that's not us. We do residential electrical, commercial electrical, panel upgrades, EV charger installs, lighting, rewiring, code corrections, and general service calls.
+
+Bharat: Perfect. What are your business hours?
+
+Ben: Monday through Friday, 8 AM to 5 PM. We're in Mountain Time — Calgary, Alberta. Sometimes I work Saturdays but I don't take regular calls on Saturdays.
+
+Bharat: Got it. And what's the office address?
+
+Ben: We're at 4815 Macleod Trail SW, Suite 210, Calgary, Alberta, T2G 0A6, Canada.
+
+Bharat: Now you mentioned Jobber — that's your CRM right?
+
+Ben: Yeah, we use Jobber for everything. Scheduling, invoicing, client records. I want whatever Clara does to eventually tie into Jobber so I'm not double-entering stuff.
+
+Bharat: Absolutely. I'll be honest, our Jobber integration is still in progress. We have live integrations with ServiceTitan and HouseCall Pro right now, but Jobber is coming. In the meantime, the AI will capture all the info and we'll make sure it gets to you via notifications, transcripts, and recordings.
+
+Ben: That's fine as long as I get the call details immediately. I don't want to find out three hours later that someone called about a sparking panel.
+
+Bharat: One hundred percent. You'll get real-time notifications after every call. Transcripts, recordings, and a summary of what the caller needed. You can get those via text, email, or both.
+
+Ben: Both. Email and text for emergencies especially.
+
+Bharat: Now what about outbound follow-ups? You mentioned you're interested in automating reminders and things like that.
+
+Ben: Yeah, eventually I'd love to have automated appointment reminders, review requests after a job is done, and maybe even invoice follow-up calls. But that's phase two for me. Right now I just need the inbound calls handled.
+
+Bharat: Smart, let's nail inbound first. So let me tell you about the plan. We're looking at a three-month trial at $249 per month. That covers 500 call minutes, which based on the call volume you described should be plenty.
+
+Ben: That works. And you said the pricing stays the same if I renew?
+
+Bharat: Yes, we'll lock that rate in for you. If you want to upgrade to more minutes or add outbound later, we can adjust, but the base rate stays locked.
+
+Ben: Alright, let's do it.
+
+Bharat: Great. I'll send the DocuSign contract to info@benselectricsolutionsteam.com right after this call. Once you sign, we'll schedule the kickoff call for tomorrow at noon if that works?
+
+Ben: Yeah, noon Mountain Time works. Let's do it.
+
+Bharat: And just for the contract, can I get the legal company name and billing details?
+
+Ben: The legal name is Ben's Electric Solutions Team Ltd. Billing address is the same — 4815 Macleod Trail SW, Suite 210, Calgary, AB T2G 0A6. Phone is 403-870-8494. Email is info@benselectricsolutionsteam.com. And just use my name for the billing contact — Ben Penoyer.
+
+Bharat: Perfect. And I see in the chat you dropped a referral — Shelley Manley from G&M Pressure Washing?
+
+Ben: Yeah, she's a friend. Her business could probably use something like this too. Her email is gm_pressurewash@yahoo.ca.
+
+Bharat: Awesome, I'll reach out to her. Thanks for that. Alright Ben, I'll get that contract out now, and I'll see you tomorrow at noon for the kickoff. Welcome aboard!
+
+Ben: Thanks Bharat, looking forward to it.
